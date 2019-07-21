@@ -96,7 +96,9 @@ I'm not the first to do this with Raspberry Pi's, so I followed a few other guid
           sudo rm -rf /etc/init.d/dphys-swapfile
 
 1. Modify `/boot/cmdline.txt`
-`cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory`
+
+        cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory
+
 1. Reboot (`sudo reboot`)
 1. Update package definitions (`sudo apt-get update`)
 1. Install kubeadm
