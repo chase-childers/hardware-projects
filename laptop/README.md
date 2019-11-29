@@ -26,4 +26,7 @@ Items that are left to do in the script:
 - Configure
   - git
   - tmux
+    - [Plugins (TPM)](https://github.com/tmux-plugins/tpm)
+    - [Resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+    - [Continuum](https://github.com/tmux-plugins/tmux-continuum)
   - AWS CLI
